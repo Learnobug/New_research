@@ -15,7 +15,7 @@ load_dotenv()
              
 llm = GoogleGenerativeAI(model="models/text-bison-001",google_api_key=os.getenv("API_KEY") )
 st.title("News Research Tool 🔎")
-prompt = hub.pull("rlm/rag-prompt", api_url="https://api.hub.langchain.com")
+prompt = hub.pull("efriis/my-first-prompt")
 st.sidebar.title("News Article URLs ")
 urls = []
 for i in range(3):
