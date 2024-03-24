@@ -1,0 +1,10 @@
+# Ignore virtual environment
+venv/
+
+# Ignore any compiled Python files
+*.pyc
+
+# Ignore local settings file
+.env
+
+# Ignore any other files you want to exclude
